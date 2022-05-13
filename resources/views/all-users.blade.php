@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-12  py-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h1>All Users</h1>
+                            <h1>All Usersssss</h1>
                         </div>
                         <div>
                             <a href="{{route('add-user')}}" class="px-3 py-2 bg-primary border-0">
