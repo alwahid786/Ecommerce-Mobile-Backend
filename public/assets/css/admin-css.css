@@ -1,55 +1,59 @@
-.min_height_100vh{
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.min_height_100vh {
     min-height: 100vh;
 }
-.wh_50px{
+
+.wh_50px {
     width: 50px;
     height: 50px;
 }
-.br_50{
+
+.br_50 {
     border-radius: 50%;
 }
-.objFitCover{
+
+.objFitCover {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
+
 div.dataTables_wrapper div.dataTables_length select {
     width: -webkit-fill-available !important;
     display: inline-block;
 }
 
-/* Image Preview Styling - START  */
-input[type="file"] {
-    display: block;
+.br_15px {
+    border-radius: 15px;
 }
 
-.imageThumb {
-    max-height: 75px;
-    border: 2px solid;
-    padding: 1px;
+.fs_25px {
+    font-size: 25px;
+}
+
+.fs_20px {
+    font-size: 20px;
+}
+
+.fs_15px {
+    font-size: 15px;
+}
+
+.br_10px {
+    border-radius: 10px;
+}
+
+.b_1px_lightgrey {
+    border: 1px solid lightgray;
+}
+
+.h_40px {
+    height: 40px;
+}
+
+.cursor_pointer {
     cursor: pointer;
-    object-fit: cover;
-    height: 90px;
-    width: 100px;
 }
-
-.pip {
-    display: inline-block;
-
-    margin: 10px 10px 0 0;
-}
-
-.remove {
-    display: block;
-    background: #444;
-    border: 1px solid black;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-}
-
-.remove:hover {
-    background: white;
-    color: black;
-}
-/* Image Preview Styling - END  */

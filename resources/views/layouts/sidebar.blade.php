@@ -122,6 +122,9 @@
 					<li class="nav-item"><a href="{{route('users')}}" class="nav-link <?php if (isset($all_users) && ($all_users == true)) {
 																							echo "active";
 																						} ?>"><i class="fa-solid fa-users"></i> <span>Users</span></a></li>
+					<li class="nav-item"><a href="{{url('active_category')}}" class="nav-link <?php if (isset($categories) && ($categories == true)) {
+																							echo "active";
+																						} ?>"><i class="fa-solid fa-braille"></i> <span>Categories</span></a></li>
 					<!-- /main -->
 
 					<!-- Layout -->

@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-12  py-3 d-flex justify-content-between align-items-center">
                         <div>
-                            <h1>All Usersssss</h1>
+                            <h1>All Users</h1>
                         </div>
                         <div>
                             <a href="{{route('add-user')}}" class="px-3 py-2 bg-primary border-0">
@@ -70,7 +70,7 @@
                                 </tr>
                             </tbody>
                         </table> -->
-                        <table id="example" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
+                        <table id="add-user" class="table table-striped table-bordered dt-responsive nowrap" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Sr #</th>
